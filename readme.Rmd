@@ -10,59 +10,19 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # Policy Analysis For Cost Effectiveness Analysis of Deworming Interventions (Advocate Analysts)
 
-Open in RStudio: [![Binder](http://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/BITSS-OPA/opa-deworming/master?urlpath=rstudio)
+<img width="200" src="./code/images/institute-for-deworming.png">
+<br>
+
+Open in RStudio: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/advocacy-policy-analysis/pa-dw-yes-opaque-link/master?urlpath=rstudio)
 
 Go straight to the Shiny app: [![Binder](http://mybinder.org/badge_logo.svg)](https://fhoces.shinyapps.io/shiny_app_test/)
 
-This repository and its accompanying dynamic document and Shiny app are three key components of an Open Policy Analysis (OPA) on the costs and benefits of mass deworming interventions in various settings. Together, these materials create a transparent and reproducible analysis to facilitate collaboration and discussion about deworming policy.
+This repository and its accompanying dynamic document and Shiny app are
+three key components of the Institute for Deworming's study on the costs and
+benefits of mass deworming interventions in various settings. Together,
+these materials create a transparent and reproducible analysis to
+facilitate collaboration and discussion about deworming policy.
 
-
-1 - [An interactive plot](https://fhoces.shinyapps.io/shiny_app_test/), which summarizes the interactions between all key parameters for a given set of assumptions. Materials can be found in: [`code/shiny_app`](https://github.com/BITSS-OPA/opa-deworming/tree/master/code/shiny_app).
+1 - [An interactive plot](https://fhoces.shinyapps.io/shiny_app_test/), which summarizes the interactions between all key parameters for a given set of assumptions. Materials can be found in: [`code/shiny_app`](https://github.com/advocacy-policy-analysis/pa-dw-yes-opaque-link/tree/master/code/shiny_app).
 
 2 - This Github repository, which stores all data, code, and materials necessary to replicate the analysis in full with minimal effort.  
-
-To learn more about BITSS and our OPA initiative [click here](https://www.bitss.org/opa/). If you would like to collaborate with BITSS to develop a demonstration of a OPA in your organization please email Aleks Bogdanoski (abogdanoski@berkeley.edu).  
-
-Major contributions to this project will be acknowledged below. This OPA employs the Contributor Roles Taxonomy ([CRediT](https://casrai.org/credit/)). Major contributions are defined as any pushed revisions to language or source code beyond corrections of spelling and grammar.  
-
-## List of Contributors:  
-*(in alphabetical order)*
-
-
-
-
-| Name                         | Conceptualization | Writing (Original Draft) | Writing (Reviewing and Editing) | Visualization | Funding Acquisition | Project Administration | Supervision |
-|------------------------------|-------------------|--------------------------|---------------------------------|---------------|---------------------|------------------------|-------------|
-| Sophia Bai                   | --                | &#9745;                  | &#9745;                         | &#9745;       | --                  | --                     | --          |
-| Aleksandar Bogdanoski        | --                | --                       | --                              | --            | &#9745;             | &#9745;                | --          |
-| Fernando Hoces de la Guardia | &#9745;           | &#9745;                  | &#9745;                         | &#9745;       | &#9745;             | --                     | &#9745;     |
-| Katherine Hoeberling         | --                | --                       | --                              | --            | &#9745;             | &#9745;                | --          |
-| Grace Hollister              | fill              | fill                     | fill                            | fill          | fill                | fill                   | fill        |
-| Orianna Jia                  | --                | &#9745;                  | &#9745;                         | --            | --                  | --                     | --          |
-| Keanu Lim                    | fill              | fill                     | fill                            | fill          | fill                | fill                   | fill        |
-| Charles Love                 | fill              | fill                     | fill                            | fill          | fill                | fill                   | fill        |
-| Teng Aleksandra Ma           | fill              | fill                     | fill                            | fill          | fill                | fill                   | fill        |
-| Edward Miguel                | &#9745;           | --                       | --                              | --            | &#9745;             | --                     | &#9745;     |
-| Grace Morgan                 | --                | &#9745;                  | &#9745;                         | --            | --                  | --                     | --          |
-| Emma Ng                      | --                | &#9745;                  | &#9745;                         | &#9745;       | --                  | --                     | --          |
-| Ryan Scholes                 | --                | &#9745;                  | &#9745;                         | &#9745;       | --                  | --                     | --          |
-| Jiayu Shi                    | fill              | fill                     | fill                            | fill          | fill                | fill                   | fill        |
-
-
-
- 
-This list of contributors to this repository (also available at [this page](https://github.com/BITSS-OPA/opa-deworming/graphs/contributors)) is ordered by each individual's number of commits, which may not perfectly reflect their intellectual contribution to this project:
-
-```{r deworming-contributors, echo=FALSE, results="asis", message=FALSE, warning = FALSE}
-# adapted from Hadley Wickham's scripts to credit contributors to R for Data Science
-## contributors.R (https://github.com/hadley/r4ds/blob/master/contributors.R)
-## index.Rmd (https://github.com/hadley/r4ds/blob/master/index.rmd)
-## R for Data Science license: https://creativecommons.org/licenses/by-nc-nd/3.0/us/
-
-library(tidyverse)
-deworming_contributors <- readr::read_csv(
-  "contributors.csv", col_types = list())
-
-cat(str_c(deworming_contributors$desc, collapse = ", "))
-```
-
