@@ -1,0 +1,13 @@
+name: pa-deworming-yes
+title: pa-deworming-yes
+username:
+account: petez
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 3698409
+bundleId: 4271964
+url: https://petez.shinyapps.io/pa-deworming-yes/
+when: 1614275888.2405
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: readme.html|readme.md|data/readme.md
