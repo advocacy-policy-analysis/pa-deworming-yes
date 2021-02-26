@@ -15,6 +15,8 @@ and benefits of mass deworming interventions in various settings.
 Together, these materials create a transparent and reproducible analysis
 to facilitate collaboration and discussion about deworming policy.
 
+<img align="right" width="50%" src="./code/images/OPA_layers_no_details.svg">
+
 1 - [An interactive plot](https://petez.shinyapps.io/pa-deworming-yes/),
 which summarizes the interactions between all key parameters for a given
 set of assumptions. Materials can be found in:
