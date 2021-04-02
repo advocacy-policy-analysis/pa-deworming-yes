@@ -1,7 +1,10 @@
 
 # Policy Analysis For Cost Effectiveness Analysis of Deworming Interventions (Advocate Analysts)
 
-<img width="200" src="./code/images/world-against-worms.png"> <br>
+<img width="200" src="./code/images/world-against-worms.png"><img height='80' src='./code/images/OPA_layers_no_details.svg'>
+<br>
+
+<img align="right" width="50%" src="./code/shiny_app/www/OPA_layers_materials.png">
 
 Open in RStudio:
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/advocacy-policy-analysis/pa-deworming-yes/master?urlpath=rstudio)
@@ -14,8 +17,6 @@ three key components of the Institute for Deworming’s study on the costs
 and benefits of mass deworming interventions in various settings.
 Together, these materials create a transparent and reproducible analysis
 to facilitate collaboration and discussion about deworming policy.
-
-<img align="right" width="50%" src="./code/images/OPA_layers_no_details.svg">
 
 1 - [An interactive plot](https://petez.shinyapps.io/pa-deworming-yes/),
 which summarizes the interactions between all key parameters for a given

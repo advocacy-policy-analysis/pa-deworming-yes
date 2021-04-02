@@ -92,6 +92,14 @@ shinyUI(
                        width = "50%",
                        height = "50%"
                      ),
+                     tags$a(
+                       img(
+                         src = "OPA_layers.png",
+                         width = "20%",
+                         height = "auto"
+                       ),
+                       href = 'http://www.bitss.org/opa/projects/deworming/'
+                     )
                    )),
                    fluidRow(
                      style = "width: 100%; height: 100%; max-width: 400px;",
@@ -152,6 +160,19 @@ shinyUI(
                  "Key Assumptions",
                  sidebarPanel(
                    div( id = "KA",
+                        fluidRow(column(3),
+                                 column(
+                                   6,
+                                   align = "center",
+                                   tags$a(
+                                     img(
+                                       src = "OPA_layers_output.png",
+                                       width = "70%",
+                                       height = "auto"
+                                     )
+                                   )
+                                   
+                                 )),
                    fluidRow(id = "tPanel1_ka",
                             style = "overflow-y: scroll; width: 100%; height: 100%; position:relative;",
                             numericInput(
@@ -261,6 +282,19 @@ shinyUI(
                  "All Assumptions",
                  sidebarPanel(
                    div(id = "All",
+                       fluidRow(column(3),
+                                column(
+                                  6,
+                                  align = "center",
+                                  tags$a(
+                                    img(
+                                      src = "OPA_layers_assumptions.png",
+                                      width = "70%",
+                                      height = "auto"
+                                    )
+                                  )
+                                  
+                                )),
                    fluidRow(id = "tPanel",
                             style = "width: 100%; max-height: 100%; position: relative;",
                             # Begin policy estimate description ----
